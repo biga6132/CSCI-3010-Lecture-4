@@ -1,11 +1,12 @@
 CXX = g++  # the compiler
 CXXFLAGS = -std=c++20 -Wall #flags
 
-all: main
+all: test
 
-main: main.cpp
-	$(CXX) $(CXXFLAGS) main.cpp -o main
+
+test: test.cpp
+	$(CXX) $(CXXFLAGS) test.cpp -o test
 
 clean:
-	rm main
+	rm  test
 
