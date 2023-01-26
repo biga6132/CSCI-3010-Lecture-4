@@ -1,7 +1,6 @@
-#include <iostream>
 #include "catch.hpp"
 #define CATCH_CONFIG_MAIN
-#include "functions_to_implement.cpp"
+#include "functions_to_implement.hpp"
 
 TEST_CASE( "Sum of vector are computed", "[sum]" ) {
     std::vector<int> v1 = {1, 2, 3};
